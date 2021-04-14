@@ -1,0 +1,7 @@
+.content{
+    grid-area: c;
+    background-color: rgb(68, 68, 70);
+}
+.content p{
+    color: white;
+}
