@@ -1,7 +1,8 @@
-body{
+body {
     background-color: rgb(51, 51, 54);
 }
-.app-wrapper{
+
+.app-wrapper {
     display: grid;
     width: 1200px;
     margin: 0 auto;
@@ -10,4 +11,8 @@ body{
             "n c";
     grid-template-rows: 60px 1fr;
     grid-auto-columns: 3fr 10fr;
+}
+.app-wrapper-content{
+    grid-area: c;
+    background-color: rgb(68, 68, 70);
 }
