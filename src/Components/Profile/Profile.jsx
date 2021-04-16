@@ -1,17 +1,16 @@
 import React from 'react';
-import prof from './Profile.module.css';
+import s from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
-const Profile = () => {
+const Profile = (props) => {
     return(
         <div>
-            <div className={prof.banner}>
-                <img src="https://static.vecteezy.com/system/resources/previews/001/419/144/non_2x/geometric-3d-cubes-pattern-free-vector.png"></img>
+            <ProfileInfo/>
+            <div className={s.verticalLine}>
+                <hr/>
             </div>
-            <div>
-                ava + description
-            </div>
-            <MyPosts/>
+            <MyPosts posts={props.state.posts}/>
         </div>
         );
 }

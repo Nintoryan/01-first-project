@@ -5,7 +5,7 @@ const Post = (props) => {
     return (
         <div className={s.item}>
             <img src="https://i.pinimg.com/736x/4a/bc/c0/4abcc00427dbb86ee5da8270b52204f8.jpg"/>
-            {props.message}
+            {props.text}
             <div>
                 <span>{props.likesCount}</span>
                 <span>{` ${likeOrLikes(props.likesCount)}`}</span>
