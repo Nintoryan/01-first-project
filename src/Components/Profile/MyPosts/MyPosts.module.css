@@ -24,7 +24,7 @@ h2{
     grid-column: 6 / 6;
 
 }
-textarea{;
+.addPost textarea{;
     resize: none;
     width: 99%;
     height: 60px;
@@ -41,7 +41,7 @@ textarea ::placeholder{
 textarea:focus{
     outline: none;
 }
-button{
+.addPost button{
     display: block;
     margin: 10px 0;
     width: 100%;

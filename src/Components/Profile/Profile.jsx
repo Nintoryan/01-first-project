@@ -10,7 +10,7 @@ const Profile = (props) => {
             <div className={s.verticalLine}>
                 <hr/>
             </div>
-            <MyPosts posts={props.state.posts}/>
+            <MyPosts posts={props.state.posts} dispatch={props.dispatch}/>
         </div>
         );
 }
